@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Consumer app for openmusic export queue",
   "main": "src/consumer.js",
+  "type": "module",
   "scripts": {
     "start-dev": "nodemon src/consumer.js",
     "start-prod": "node src/consumer.js"
