@@ -1,0 +1,21 @@
+{
+  "name": "openmusic-queue-consumer",
+  "version": "1.0.0",
+  "description": "Consumer app for openmusic export queue",
+  "main": "src/consumer.js",
+  "scripts": {
+    "start-dev": "nodemon src/consumer.js",
+    "start-prod": "node src/consumer.js"
+  },
+  "author": "Prasetya Ikra Priyadi",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
